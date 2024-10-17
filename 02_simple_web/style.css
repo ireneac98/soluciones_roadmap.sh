@@ -1,0 +1,25 @@
+.primer_bloque, .proyectos, .trabajo_experiencia1, .educacion, .segunda_parte{
+    border: 2px solid black;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  nav {
+    flex-grow: 1;
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 0;
+  }
+
+.intro {
+    text-align: center;
+}
+
