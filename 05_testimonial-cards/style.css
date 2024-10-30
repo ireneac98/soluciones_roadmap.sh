@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Contenedor para toda la página */
+.container{
+    width: 100%;
+    border: 1px solid white;
+    padding: 40px;
+    
+}
+
+/* Estilo para el bloque de la tarjeta 1 y 2 */
+.bloque1{
+    display: flex;
+    flex-direction: row;
+}
+
+/* Estilo para la tarjeta 1 */
+.tarjeta1{
+    padding-right: 40px;
+}
+
+.parrafos_posicion1{
+    border: 1px solid black;
+    color: white;
+    padding: 20px;
+    border-radius: 15px;
+    width: 300px;
+    height: 160px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 1.2rem;
+    background-color: black;
+    position: relative;
+}
+
+.parrafos_posicion1::after{
+    content: '';
+    position: absolute;
+    bottom: -13px;
+    left: 2.4rem;
+    transform: translateX(-50%);
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid black;
+}
+
+.parrafos_posicion2{
+    display: flex;
+    flex-direction: row;
+    padding-left: 5px;
+    padding-top: 25px;
+}
+
+/* Estilo para la tarjeta 2 */
+.tarjeta2{
+    border: 2px solid black;
+    width: 400px;
+    height: 260px;
+    font-size: 1.5rem;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.parrafos_posicion3{
+    display: flex;
+    flex-direction: row;
+    padding-left: 5px;
+}
+
+/* Estilo para la imagen de la tarjeta 1 y 2 */
+.foto{
+    display: block;
+    width: 60px;
+    height: 60px;
+}
+
+/* Estilo para la tarjeta 3 */
+.tarjeta3{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.parte2{
+    background-color: black;
+    border: 2px solid black;
+    color: white;
+    border-radius: 20px;
+    width: 525px;
+    height: 300px;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    margin-left: 15px;
+}
+
+.parte2 #nombre{
+    font-size: 2.5rem;
+}
+
+.parte2 #descripcion{
+    font-size: 1.5rem;
+}
+
+/*Estilo para la imagen de la tarjeta 3 */
+.imagen_mujer{
+    width: 300px;
+    height: 300px;
+    border: 2px solid pink;
+    border-radius: 20px;
+}
+
+/* Estilo para la tarjeta 4 */
+.tarjeta4{
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 840px;
+    height: 300px;
+    text-align: center;
+    font-size: 1.8rem;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+/* Estilo imagen tarjeta 4 */
+.imagen_tarjeta4{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.prev::before {
+    content: '❮';
+}
+
+.next::before {
+    content: '❯';
+}
+
+.perfil img:first-of-type,
+.perfil img:last-of-type {
+    scale: 0.8;
+    opacity: 0.5;
+}
+
+
+
+
