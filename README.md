@@ -6,5 +6,6 @@ Este repositorio contiene proyectos front-end construidos siguiendo la ruta de d
 <p>Proyecto portfolio: https://roadmap.sh/projects/portfolio-website</p><br>
 <p>Proyecto changelog: https://roadmap.sh/projects/changelog-component</p><br>
 <p>Proyecto testimonial-cards: https://roadmap.sh/projects/testimonial-cards</p><br>
+<p>Proyecto datepick: https://roadmap.sh/projects/datepicker-ui</p><br>
 
 
