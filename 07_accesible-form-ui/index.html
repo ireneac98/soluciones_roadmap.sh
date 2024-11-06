@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accesible Form UI</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendario</title>
+    <link rel="icon" href="calendario.png" type="image/x-icon">
+    <!-- SEO Meta Tags -->
+    <meta name="descripcion" content="Simple HTML-only website for roadmap.sh frontend"/>
+    <meta name="keywords" content="Frontend Project, HTML, Roadmap.sh" />
+    <meta name="autora" content="Irene Alonso" />
+    <!-- Enlazamos la hoja de estilo -->
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+</head>
+<body>
+    <div class="contenedor">
+        <form action="#" method="post">
+            <div class="contenedor_izquierda">
+            <p>
+            <label for="nombre">
+                Nombre Completo <br>
+                <input type="text" id="nombre" placeholder="Nombre Apellido" aria-required="true">
+            </label><br><br>
+
+            <label for="correo">
+                Email <br>
+                <input type="email" id="correo" placeholder="ejemplo@correo.com" aria-required="true" aria-invalid="true">
+            </label><br><br>
+
+            <label for="contraseña">
+                Escribe tu contraseña <br>
+                <input type="password" id="contraseña" placeholder="xxxxxxx"
+                 aria-required="true" pattern=".{8,}" title="La contraseña debe tener al menos 8 caracteres">
+            </label>
+            <br><br>
+
+            <label for="confirmar_contraseña">
+                 Confirmar contraseña<br>
+                <input type="password" id="confirmar_contraseña" placeholder="xxxxxxx" aria-required="true"><br>
+                <span class="mensaje-error">Las contraseñas deben coincidir</span>
+            </label><br><br>
+
+            <button type="submit">Actualizar Perfil</button>
+            </p>
+            </div>
+
+            <div class="contenedor_derecha">
+                <div class="progreso">
+                    <p class="parrafo_progreso">65%</p>
+                </div>
+                <br>
+                <h3>Completado del perfil</h3>
+                <br>
+                <div class="lista">
+                    <ul>
+                        <li class="estilo_parrafo">Crear una cuenta</li>
+                        <li class="estilo_parrafo">Actualizar Roadmap progresos</li>
+                        <li class="estilo_parrafo">Configuración del perfil público</li>
+                        <li>Completar tu primer proyecto</li>
+                        <li>Invitar a tus amigos</li>
+                    </ul>
+                </div> 
+            </div>
+        </form>
+    </div>
+    
+</body>
+</html>

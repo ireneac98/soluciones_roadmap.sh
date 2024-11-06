@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor{
+    display: block;
+    width: 800px;
+    height: 500px;
+    border: 2px solid rgb(30, 5, 87);
+    border-radius: 20px;
+    margin: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(46, 46, 114);
+    
+}
+
+.contenedor_izquierda{
+    font-size: 20px;
+}
+
+form {
+    margin-top: 40px;
+    
+    display: flex;
+    justify-content: space-evenly;
+}
+
+input{
+    border-radius: 5px;
+    font-size: 18px;
+    background-color: rgb(138, 189, 204);
+}
+
+label{
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+button{
+    border-radius: 5px;
+    font-size: 18px;
+    width: 222px;
+    height: 30px;
+    background-color: rgb(138, 189, 204);
+    color: rgb(19, 11, 11);
+    cursor: pointer;
+}
+
+.mensaje-error{
+    color: red;
+    font-size: 0.875rem;
+    margin-top: 0.25rem;
+}
+
+.lista{
+    background-color: rgb(138, 189, 204);
+    border-radius: 10px;
+    width: 250px;
+    height: 130px;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+
+ul{
+    list-style: none;
+    
+}
+
+.estilo_parrafo{
+    color: gray;
+    text-decoration: line-through;
+}
+
+.progreso{
+border-radius: 50%;
+  border: 2px solid #bdd6f569;
+  width: 10rem;
+  height: 10rem;
+
+  background-color: #e5d9f200;
+  box-shadow: inset 9px -10px 11px 0px #9db2cd42,
+    inset -4px 4px 2px 0px #bdd6f569;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  border-left: 2px solid #41c7e9c9;
+  border-radius: 50%;
+}
